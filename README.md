@@ -21,7 +21,7 @@ Here one can find file with my comments how to use the camera, where find labVIE
 
 Scheme of the setup that all those comments are about looks like this:
 
-# ADD HERE PNG FILE
+![Pierwszy obrazek](Manuals, Datasheets, Setups\scheme_heralded.png)
 
 More of that there is directory "PLOTS" with the crucial plots made with Histograms_of_counts and Plotting_accumulated_events. There was a lot of measurements done with different versions of setup, but here to make all the repository cleaner is added only latest figures.
 
@@ -30,7 +30,7 @@ Here one can find file with my comments how to use coincidence logic setup, wher
 
 Scheme of the setup that in this directory is about looks like this:
 
-# ADD HERE PNG FILE
+![Pierwszy obrazek](Manuals, Datasheets, Setups\Coincidence-Scheme.png)
 
 As I didn't figure out how to read files saved by this program I saved screenshots of the program for crucial configuration and for different setups. 
 

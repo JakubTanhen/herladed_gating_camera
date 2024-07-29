@@ -19,10 +19,11 @@ There is a button to save file, this will save in binary format the data. I didn
 
 # Some values of the source we have now and how we got it:
 
-1. First to get any counts we used back propagation method to couple into fibers for each APD. Then we putted long pass filters and turned on the program and APD. We started looking for photons with setted temperature of the crystal around 32 Celcuis. By looking at the counts we could better couple to the fiber (maximize the number of single counts on each arm). Find the best polarization by maximizing the counts as well. Find laser power of the beam that will be high enough so the source will start working, then tune the temperature. In ideal world the temperature setted depends on the pump wavelength so changing the power should not matter, in our case with changing the power the laser changes the wavelength. When you see some counts it it only matter of coupling, the better you couple the better result will be.
+First to get any counts we used back propagation method to couple into fibers for each APD. Then we putted long pass filters and turned on the program and APD. We started looking for photons with setted temperature of the crystal around 32 Celcuis. By looking at the counts we could better couple to the fiber (maximize the number of single counts on each arm). Find the best polarization by maximizing the counts as well. Find laser power of the beam that will be high enough so the source will start working, then tune the temperature. In ideal world the temperature setted depends on the pump wavelength so changing the power should not matter, in our case with changing the power the laser changes the wavelength. When you see some counts it it only matter of coupling, the better you couple the better result will be.
 
 Our values:
 Laser power - 115.5mW
 temperature - 30.51 Celcius
 maximal counts - 290 000/1s
 coincidence/counts ratio -around 10%
+

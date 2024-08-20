@@ -29,3 +29,12 @@ Saving:
 
 In our case se used 4.4V and 10 ns delay with 40ns width.
 
+
+# Quick how to use SDG 
+In this section one can find how I used Stanford Delay Generator that for basic usage will be enough. I recommend to go through manual
+in Manuals_Datasheets_Setups directory, where one can find how to for example program this device and do automatization.
+
+1. So in case of heralded gating, external triggering is turned on, this one can set by using arrows in trig mode area and electric signal from APD is connected to EXT TRIG
+2. Then several values needs to be setted: trigger treshold should be set high enough so the reflected signal will not randomly trigger our device and advanced triggering should be turn on. Next One can set holdoff time, this will be the time for witch stanford will ignore new triggers after triggering, this way one can set minimal delay between each trigger
+3. Then one should choose output from stanford (not the first one with T0, will not be able to set proper delay for impulse) in our case it is AB channel. Here one can set the max value (point B) to desired voltage (our case 5V), and can set on the same point the delay were one should set that it will be A + .... <-here will be width set by user. It is important to have this A at the beginning because this way user is setting the width of the pulse, otherwise you will be setting individually delay for both points and it can make some issues. In point A one can set level 0V as ground and the delay will be the delay added before sending signal, even if you put 0 here, non avoidable 85ns delay will be added to this signal.
+
